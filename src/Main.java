@@ -4,7 +4,7 @@ public class Main {
         int accountReplenishment = 1100;
         int clientBonuses = 0;
 
-        if (accountReplenishment < 1000) {
+        if (accountReplenishment <= 1000) {
             clientCurrentAccount += accountReplenishment;
             System.out.println("Итоговый бонус = " + clientBonuses);
         } else if (accountReplenishment > 1000) {
